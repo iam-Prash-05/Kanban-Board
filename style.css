@@ -8,7 +8,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  outline: auto;
+  /* outline: auto; */
 }
 
 body {
@@ -31,6 +31,13 @@ main {
   gap: 10px;
   font-size: 12px; /* temprary */
 }
+.icon {
+  height: 18px;
+  width: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 
 .heading-area {
   padding: 20px;
@@ -38,6 +45,41 @@ main {
   align-items: center;
   justify-content: space-between;
 }
+.right-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.icon--search {
+  background-image: url(assets/Monotone\ add.svg);
+}
+.share {
+  padding: 5px 10px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: #4f46e5;
+  color: #ffffff;
+}
+.icon--share {
+  background-image: url(assets/ShareNetwork.svg);
+}
+.upload,
+.add {
+  padding: 5px;
+  border: 1px solid #475569;
+  border-radius: 50%;
+}
+.icon--upload {
+  background-image: url(assets/Monotone\ add-1.svg);
+}
+.icon--add {
+  background-image: url(assets/Monotone\ add-2.svg);
+}
+
 .task-types {
   padding: 10px;
   display: flex;
@@ -52,7 +94,21 @@ main {
 }
 .view {
   display: flex;
-  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.newest {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #475569;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.icon--down {
+  background-image: url(assets/CaretDown.svg);
 }
 
 .progress-type {
